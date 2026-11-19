@@ -1,0 +1,6 @@
+[
+  { "file": "1-cover.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-roadmap.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-guide.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "4-spoiler.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } }
+]

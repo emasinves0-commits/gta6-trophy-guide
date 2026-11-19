@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Offline GTA VI trophy guide and tracker: all 55 PS5 trophies, roadmap to the platinum, missables flagged.">
+<title>Leonida Trophy Guide – GTA VI tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="sun" aria-hidden="true"></div>
+  <h1>Leonida Trophy Guide</h1>
+  <p>Fan-made offline tracker for the 55 PS5 trophies of Grand Theft Auto VI. Unofficial.</p>
+  <section id="progress" aria-label="Progress">
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="bar-fill"></div></div>
+    <p class="progress-text"></p>
+    <div class="grade-counts"></div>
+    <p id="missable-count" class="warn"></p>
+  </section>
+</header>
+<main>
+  <section class="controls" aria-label="Filters">
+    <input id="search" type="search" placeholder="Search trophies and guides" aria-label="Search">
+    <div id="kinds" class="kinds" role="group" aria-label="Filter by kind"></div>
+    <label>Grade
+      <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select>
+    </label>
+    <label><input id="hide-earned" type="checkbox"> Hide earned</label>
+    <label><input id="spoilers" type="checkbox"> Hide hidden-trophy names until earned</label>
+    <button id="export" type="button">Export progress</button>
+    <label class="file">Import progress <input id="import" type="file" accept="application/json,.json"></label>
+    <button id="reset" type="button" class="quiet">Reset</button>
+    <span id="result-count" class="muted"></span>
+    <span id="message" class="muted" role="status"></span>
+  </section>
+  <div class="columns">
+    <section aria-label="Checklist"><h2>Checklist</h2><ul id="list" class="list"></ul></section>
+    <aside id="roadmap" aria-label="Roadmap"><h2>Roadmap to the platinum</h2><ul id="roadmap-notes" class="notes"></ul>
+    <p id="missable-note" class="missable-note"></p>
+    <div id="roadmap-body"></div></aside>
+  </div>
+</main>
+<footer>Unofficial fan project. Trophy names and descriptions belong to their owners; guides are original text. Works offline.</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
