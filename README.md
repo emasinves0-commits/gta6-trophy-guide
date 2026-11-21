@@ -34,6 +34,8 @@ Hand-in: `MAKEFUN_OUTPUT_DIR=out node main.ts` copies `app/` and `screenshots/` 
 - `tools/add-steps.py` rebuilds the steps, claims, counts and disputes in `trophies.json` (first pass: `tools/update-guides.py`); `tools/apply-polish-fixes.py` then applies the TechWiser source and the dispute labels (idempotent).
 - `tools/take-screenshots.py` and `tools/browser-test.py` drive the app in headless Chrome (`node serve.ts --port 8081` first).
 
+- 2026-11-21 (R3): the `guide` field is restored on all 55 trophies in `trophies.json` (source: the `steps` texts joined with spaces); `steps` and `claims` are unchanged.
+
 ## Files
 
 - `app/data/trophies.json` – trophies with steps, roadmap stages, source index, disputes
