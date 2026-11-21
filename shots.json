@@ -1,6 +1,6 @@
 [
-  { "file": "1-cover.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-roadmap.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-guide.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "4-spoiler.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } }
+  { "file": "1-cover.jpg", "path": "/#tracker/28", "view": "Tracker: audit strip, filters with counts, next-up roadmap order, Positive Mental Attitude open with numbered cited steps, YOUR COUNT 4/18, claims, sources panel and SOURCES DIFFER boxes; spoiler shield on (26 masked)", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-roadmap.jpg", "path": "/#roadmap", "view": "Roadmap tab: the three stages in order with trophy counts, hours, trophies and the missable and total-time notes", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-missables.jpg", "path": "/#missables", "view": "Missables tab: all 8 missable, at-risk and unconfirmed trophies with window and last chance", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "4-sources.jpg", "path": "/#sources", "view": "Sources tab: numbered source index (6 sources, with read dates and claims cited), then the 15 labelled disputes and open points with both versions and our call", "viewport": { "width": 1280, "height": 800 } }
 ]

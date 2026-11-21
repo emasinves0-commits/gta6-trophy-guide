@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""One-off data pass: rewrites guides, sources, missable flags and the roadmap in app/data/trophies.json.
+"""FIRST data pass (superseded for guides by tools/add-steps.py, which turns the prose below into cited steps): rewrites guides, sources, missable flags and the roadmap in app/data/trophies.json.
 Official names, descriptions and grades are never touched. Guides are original wording based on the five cited pages."""
 import json, sys
 path = sys.argv[1] if len(sys.argv) > 1 else 'app/data/trophies.json'
 d = json.load(open(path))
+if 'steps' in d['trophies'][0]:
+    sys.exit('trophies.json already holds stepped guides; this first pass would overwrite them. Use tools/add-steps.py.')
 
 d['sources'] = {
   'ppx': {'name': 'PowerPyx: GTA 6 trophy guide and roadmap', 'url': 'https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/'},

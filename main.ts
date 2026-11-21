@@ -5,13 +5,13 @@
 // screenshots, the first load's files and bytes, and your source), with the vendored make.fun library. Leave
 // vendor/makefun-frontend.ts as it is: the scorer requires dossier.json to be byte for byte what its own copy writes.
 //
-// Only the plumbing, not a winner: a plain checklist of the 55 trophies with a one-line hint each. Write a real guide
-// for every trophy in your own words, a roadmap to the platinum, filters and a spoiler setting in app/, put 3 or 4 PNG
-// or JPEG screenshots of it in screenshots/ (the first by name is the cover; shots.json says which views this
-// starter's were taken of), and run it.
+// The polished entry (v2): every one of the 55 trophies has a numbered, source-cited guide in app/data/trophies.json, the
+// app opens on a dense three-pane tracker under a live audit strip (claims cited, disputes, at-risk counts, all computed
+// at runtime from the data), and a roadmap, missables and sources tab sit beside it. The four screenshots in screenshots/
+// are real renders of those views (tools/take-screenshots.py).
 //
-// This entry: Leonida Trophy Guide, an offline tracker with a guide, roadmap and missable flags for all 55 trophies.
-// Serve it locally with `node serve.ts`, then open http://localhost:8080.
+// This entry: Leonida Trophy Guide, an offline tracker with stepped, cited guides, source disputes, roadmap and missable
+// flags for all 55 trophies. Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
